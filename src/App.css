@@ -1,0 +1,133 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.heading{
+  margin: 15px;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+  color: rgb(3, 3, 97);
+}
+.underline{
+  height: 5px;
+  width: 45%;
+  margin: 0 auto;
+  background-color: rgb(0, 153, 255);
+}
+
+.review-container{
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 600px;
+  min-height: 400px;
+  padding: 10px;
+  margin: 0 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  box-shadow: 9px 0px rgb(28, 172, 230);
+  position: relative;
+}
+
+.image{
+  position: relative;
+}
+.quote-icon{
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(6px,18px);
+  background-color: rgb(28, 172, 230);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+
+.about{
+  margin-top: -25px;
+}
+
+.name{
+  letter-spacing: 1.4px;
+  text-transform: capitalize;
+}
+
+.job{
+  text-transform: uppercase;
+  color: rgb(0, 183, 255);
+}
+
+.info{
+  margin-top: -20px;
+  padding: 0 20px;
+}
+
+.btn-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.btn{
+  margin-left: 15px;
+  background: none;
+  border: none;
+  font-size: 1.2rem;
+  color: rgb(0, 183, 255);
+  cursor: pointer;
+}
+
+.btn:hover{
+  color: rgb(29, 123, 167);
+}
+
+.about-me{
+  color: grey;
+  font-size: 0.9rem;
+}
+
+.random{
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random button{
+  border: none;
+  background-color: lightblue;
+  padding: 5px 10px;
+  color: rgb(0, 132, 255);
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+.random button:hover{
+  background-color: rgb(40, 194, 245);
+  color: white;
+}
